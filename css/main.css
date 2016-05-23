@@ -105,7 +105,7 @@ body {
 }
 
 .info-section__description {
-  font-style: italic;
+  	font-style: italic;
 }
 
 .whatido__skill-list {
@@ -149,8 +149,6 @@ body {
   	width: 33.3%;
 }
 
-
-
 .education-experience__list li {
 	overflow: hidden;
 	list-style: none;
@@ -162,7 +160,6 @@ body {
 	float: left;
 	width: 180px;
 }
-
 
 .photos__list {
 	overflow: hidden;
@@ -176,6 +173,78 @@ body {
 .photos__list li img {
 	width: 100%;
 }
+
+.get-in-touch__list {
+	list-style: none;
+	overflow: hidden;
+	padding-top: 20px
+}
+
+.get-in-touch__list li {
+	float: left;
+	width: 25%;
+}
+
+
+.contact form{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+}
+
+.contact input,
+.contact textarea {
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	display: block;
+	padding: 8px;
+	width: 100%;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.contact button {
+  	border: none;
+  	border-radius: 9999px;
+
+  	background: #ffd524;
+
+  	cursor: pointer;
+  	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  	color: #fff;
+  	box-shadow: 0 3px 0 #daae1d;
+  	display: block;
+	padding: 8px;
+	width: 100%;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+
+
+label {
+	position: absolute;
+	left: -100%;
+	width: 100%;
+	text-align: right
+}
+
+label[for=name]{
+	top: 0;
+}
+
+label[for=email]{
+	top: 24%;
+}
+
+label[for=message]{
+	top: 48%;
+}
+
+
+
+
 
 
 
